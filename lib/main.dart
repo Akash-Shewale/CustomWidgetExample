@@ -51,7 +51,11 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+<<<<<<< HEAD
   String name='Hello Flutter';
+=======
+  String name='Hello';
+>>>>>>> f641c5efc3f875e664095f2928840317c508fe4c
 
   void _incrementCounter() {
     setState(() {
@@ -61,7 +65,11 @@ class _MyHomePageState extends State<MyHomePage> {
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
       _counter++;
+<<<<<<< HEAD
       name='Akashh';
+=======
+      name='Sagar Branch';
+>>>>>>> f641c5efc3f875e664095f2928840317c508fe4c
     });
   }
 
